@@ -1,0 +1,5 @@
+8 2 5 1 4 5 3 9 6 10 
+max element in range (0 to 9) = 10
+max element in range (0 to 6) = 8
+max element in range (5 to 8) = 9
+max element in range (3 to 7) = 9

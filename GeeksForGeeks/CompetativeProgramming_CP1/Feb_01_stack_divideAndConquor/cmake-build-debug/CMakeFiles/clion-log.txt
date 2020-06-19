@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kiran/Projects/GitHub/Algorithms/Algorithms/GeeksForGeeks/CompetativeProgramming_CP1/Feb_01_stack_divideAndConquor
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/kiran/Projects/GitHub/Algorithms/Algorithms/GeeksForGeeks/CompetativeProgramming_CP1/Feb_01_stack_divideAndConquor/cmake-build-debug

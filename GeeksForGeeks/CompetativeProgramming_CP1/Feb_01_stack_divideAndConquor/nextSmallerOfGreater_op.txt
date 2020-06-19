@@ -1,0 +1,4 @@
+7	4	6	1	8	4	9	34	6	7	==Array==
+8	6	8	8	9	9	34	-1	7	-1	==NGE==
+1	1	1	34	4	34	34	6	-1	-1	==NSE==
+4	1	4	4	34	34	6	-1	-1	-1	==Next small of Next greater Element==

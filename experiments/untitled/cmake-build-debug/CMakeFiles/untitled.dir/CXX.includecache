@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+

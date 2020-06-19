@@ -41,6 +41,7 @@ int main() {
 
 	int n, temp;
 	vector<int> arr;
+
 	cin >> n;
 	vector<int> nge(n, 0);
 
@@ -49,7 +50,13 @@ int main() {
 		cin >> temp;
 		arr.push_back(temp);
 	}
+    /*
+    int n;
+    vector<int> arr{2, 7, 3, 8, 1, 5, 3};
+    n = arr.size();
 
+*/
+//    vector<int> nge(n, 0);
 	nextGreatestElement(arr, nge);
 
 	for (int i = 0; i < n; i++)

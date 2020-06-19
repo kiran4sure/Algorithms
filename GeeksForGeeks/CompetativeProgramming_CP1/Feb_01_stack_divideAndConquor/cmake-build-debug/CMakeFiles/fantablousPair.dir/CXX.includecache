@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kiran/Projects/GitHub/Algorithms/Algorithms/GeeksForGeeks/CompetativeProgramming_CP1/Feb_01_stack_divideAndConquor/fantablousPair.cpp
+bits/stdc++.h
+-
+bits/stdc++.h
+-
+
