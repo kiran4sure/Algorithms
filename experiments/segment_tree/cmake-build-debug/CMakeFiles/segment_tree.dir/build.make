@@ -60,15 +60,15 @@ include CMakeFiles/segment_tree.dir/flags.make
 CMakeFiles/segment_tree.dir/segment_tree.cpp.o: CMakeFiles/segment_tree.dir/flags.make
 CMakeFiles/segment_tree.dir/segment_tree.cpp.o: ../segment_tree.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/segment_tree.dir/segment_tree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/segment_tree.dir/segment_tree.cpp.o -c /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/segment_tree.dir/segment_tree.cpp.o -c /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp
 
 CMakeFiles/segment_tree.dir/segment_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segment_tree.dir/segment_tree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp > CMakeFiles/segment_tree.dir/segment_tree.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp > CMakeFiles/segment_tree.dir/segment_tree.cpp.i
 
 CMakeFiles/segment_tree.dir/segment_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segment_tree.dir/segment_tree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp -o CMakeFiles/segment_tree.dir/segment_tree.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/segment_tree/segment_tree.cpp -o CMakeFiles/segment_tree.dir/segment_tree.cpp.s
 
 # Object files for target segment_tree
 segment_tree_OBJECTS = \

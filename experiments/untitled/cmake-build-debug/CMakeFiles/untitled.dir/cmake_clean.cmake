@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o"
+  "CMakeFiles/untitled.dir/dir_traversal.cpp.o"
   "untitled"
   "untitled.pdb"
 )

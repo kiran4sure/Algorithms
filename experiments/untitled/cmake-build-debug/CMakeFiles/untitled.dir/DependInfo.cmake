@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp" "/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/cmake-build-debug/CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o"
+  "/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp" "/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/cmake-build-debug/CMakeFiles/untitled.dir/dir_traversal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

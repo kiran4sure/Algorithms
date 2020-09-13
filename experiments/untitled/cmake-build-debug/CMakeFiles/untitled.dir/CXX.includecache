@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp
-bits/stdc++.h
+/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp
+dirent.h
 -
-bits/stdc++.h
+iostream
+-
+queue
 -
 

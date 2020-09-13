@@ -57,27 +57,27 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o: ../matrix_palindromic_paths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o -c /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp
+CMakeFiles/untitled.dir/dir_traversal.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/dir_traversal.cpp.o: ../dir_traversal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/dir_traversal.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/dir_traversal.cpp.o -c /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp
 
-CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp > CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.i
+CMakeFiles/untitled.dir/dir_traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dir_traversal.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp > CMakeFiles/untitled.dir/dir_traversal.cpp.i
 
-CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/matrix_palindromic_paths.cpp -o CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.s
+CMakeFiles/untitled.dir/dir_traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dir_traversal.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp -o CMakeFiles/untitled.dir/dir_traversal.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o"
+"CMakeFiles/untitled.dir/dir_traversal.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled: CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o
+untitled: CMakeFiles/untitled.dir/dir_traversal.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"

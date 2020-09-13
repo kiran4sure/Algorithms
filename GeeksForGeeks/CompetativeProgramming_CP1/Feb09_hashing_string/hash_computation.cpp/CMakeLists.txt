@@ -3,4 +3,4 @@ project(hash_computation_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hash_computation_cpp main.cpp)
+add_executable(hash_computation_cpp common_substring_in3strings.cpp)

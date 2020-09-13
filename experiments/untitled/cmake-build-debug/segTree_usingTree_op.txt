@@ -1,0 +1,4 @@
+minimum between 2 and 7 = 2
+minimum between 0 and 9 = 1
+minimum between 3 and 6 = 4
+minimum between 6 and 9 = 1

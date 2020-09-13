@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled matrix_palindromic_paths.cpp)
+add_executable(untitled dir_traversal.cpp)

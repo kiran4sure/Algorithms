@@ -123,32 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-matrix_palindromic_paths.o: matrix_palindromic_paths.cpp.o
+dir_traversal.o: dir_traversal.cpp.o
 
-.PHONY : matrix_palindromic_paths.o
+.PHONY : dir_traversal.o
 
 # target to build an object file
-matrix_palindromic_paths.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.o
-.PHONY : matrix_palindromic_paths.cpp.o
+dir_traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.o
+.PHONY : dir_traversal.cpp.o
 
-matrix_palindromic_paths.i: matrix_palindromic_paths.cpp.i
+dir_traversal.i: dir_traversal.cpp.i
 
-.PHONY : matrix_palindromic_paths.i
+.PHONY : dir_traversal.i
 
 # target to preprocess a source file
-matrix_palindromic_paths.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.i
-.PHONY : matrix_palindromic_paths.cpp.i
+dir_traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.i
+.PHONY : dir_traversal.cpp.i
 
-matrix_palindromic_paths.s: matrix_palindromic_paths.cpp.s
+dir_traversal.s: dir_traversal.cpp.s
 
-.PHONY : matrix_palindromic_paths.s
+.PHONY : dir_traversal.s
 
 # target to generate assembly for a file
-matrix_palindromic_paths.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/matrix_palindromic_paths.cpp.s
-.PHONY : matrix_palindromic_paths.cpp.s
+dir_traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.s
+.PHONY : dir_traversal.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... matrix_palindromic_paths.o"
-	@echo "... matrix_palindromic_paths.i"
-	@echo "... matrix_palindromic_paths.s"
+	@echo "... dir_traversal.o"
+	@echo "... dir_traversal.i"
+	@echo "... dir_traversal.s"
 .PHONY : help
 
 
