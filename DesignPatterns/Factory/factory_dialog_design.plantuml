@@ -1,0 +1,46 @@
+@startuml dialog_factory
+skinparam ClassAttributeIconSize 0
+
+button <|.. windowsButton
+button <|.. linuxButton
+dialog <|-- windowsDialog
+dialog <|-- linuxDialog
+dialog --> button
+
+interface button <<Interface>>{
+    + rightClick()
+    + leftClick()
+}
+
+class windowsButton{
+    + rightClick()
+    + leftClick()
+}
+
+class linuxButton{
+    + rightClick()
+    + leftClick()
+}
+
+abstract class dialog {
+    + rightClick()
+    + leftClick()
+    + location()
+    + size()
+}
+
+class windowsDialog {
+    + rightClick()
+    + leftClick()
+    + location()
+    + size()
+}
+
+class linuxDialog {
+    + rightClick()
+    + leftClick()
+    + location()
+    + size()
+}
+
+@enduml

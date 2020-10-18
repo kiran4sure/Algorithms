@@ -1,0 +1,35 @@
+@startuml factory
+skinparam ClassAttributeIconSize 0
+/'ConcreteCreatorA --|> Product
+ConcreteCreatorB --|> Product
+'/
+Product <|.. ConcreteProductA 
+Product <|.. ConcreteProductB 
+ConcreteCreatorA --|> Creator
+ConcreteCreatorB --|> Creator
+Creator --> Product
+abstract class Creator {
+ +someOperation()
+ +createProduct(): Product   
+}
+
+interface Product <<Interface>> {
+    +doStuff()
+}
+
+class ConcreteProductA <<Implement doSuff>>{
+    +doStuff()
+}
+
+class ConcreteProductB <<Implement doSuff>>{
+    +doStuff()
+}
+
+class ConcreteCreatorA {
+    +createProduct() : Product
+}
+
+class ConcreteCreatorB {
+    +createProduct() : Product
+}
+@enduml
