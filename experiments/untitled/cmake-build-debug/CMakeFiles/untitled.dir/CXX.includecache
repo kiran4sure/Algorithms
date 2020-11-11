@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/dir_traversal.cpp
-dirent.h
--
+/Users/kiran/Projects/GitHub/Algorithms/Algorithms/experiments/untitled/main.cpp
 iostream
 -
-queue
+unordered_set
+-
+map
+-
+string
 -
 

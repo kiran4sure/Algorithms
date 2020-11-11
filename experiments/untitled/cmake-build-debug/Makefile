@@ -123,32 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-dir_traversal.o: dir_traversal.cpp.o
+main.o: main.cpp.o
 
-.PHONY : dir_traversal.o
+.PHONY : main.o
 
 # target to build an object file
-dir_traversal.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.o
-.PHONY : dir_traversal.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-dir_traversal.i: dir_traversal.cpp.i
+main.i: main.cpp.i
 
-.PHONY : dir_traversal.i
+.PHONY : main.i
 
 # target to preprocess a source file
-dir_traversal.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.i
-.PHONY : dir_traversal.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-dir_traversal.s: dir_traversal.cpp.s
+main.s: main.cpp.s
 
-.PHONY : dir_traversal.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-dir_traversal.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dir_traversal.cpp.s
-.PHONY : dir_traversal.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... dir_traversal.o"
-	@echo "... dir_traversal.i"
-	@echo "... dir_traversal.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
