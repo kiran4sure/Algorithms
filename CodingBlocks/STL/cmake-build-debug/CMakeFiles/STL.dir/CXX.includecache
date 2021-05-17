@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kiran/Projects/GitHub/Algorithms/Algorithms/CodingBlocks/STL/generic_search.cpp
+iostream
+-
+string
+-
+list
+-
+functional
+-
+vector
+-
+

@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <vector>
+
 #define mod (int)1e7+5
+
 using namespace std;
 
 int comp_hash(string &str)
@@ -20,18 +25,20 @@ int comp_hash(string &str)
 }
 
 int main() {
-#ifndef ONLINE_JUDGE
-    //for getting input form intput.txt
-    freopen("compute_hash_ip.txt", "r", stdin);
-    //for writing output to output1.txt
-    freopen("compute_hash_op.txt", "w", stdout);
-#endif
+// #ifndef ONLINE_JUDGE
+//     //for getting input form intput.txt
+//     freopen("compute_hash_ip.txt", "r", stdin);
+//     //for writing output to output1.txt
+//     freopen("compute_hash_op.txt", "w", stdout);
+// #endif
 
     string str;
     int n;
+    cout << "Enter number of strings" << endl;
     cin >> n;
     while(n--)
     {
+        cout << "Enter remaning " << n+1 << " strings" << endl;
         cin >> str;
         int result = comp_hash(str);
        cout << "hash of " << str << " = " << result << endl;

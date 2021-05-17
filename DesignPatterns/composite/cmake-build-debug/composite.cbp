@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="composite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="composite">
+				<Option output="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/composite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 composite"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="composite/fast">
+				<Option output="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/composite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 composite/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/main.cpp">
+			<Option target="composite"/>
+		</Unit>
+		<Unit filename="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/DesignPatterns/composite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
