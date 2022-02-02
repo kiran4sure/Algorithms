@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="FirstCodelieProj" Database="" Version="10000">
+  <Project Name="Proj1" Path="Proj1/Proj1.project" Active="No"/>
+  <Project Name="GraphBridge" Path="GraphBridge/GraphBridge.project" Active="No"/>
+  <Project Name="VectorCustom" Path="VectorCustom/VectorCustom.project" Active="No"/>
+  <Project Name="ChatRoom_Mediator" Path="ChatRoom_Mediator/ChatRoom_Mediator.project" Active="Yes"/>
+  <Project Name="ParkingLot" Path="ParkingLot/ParkingLot.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Proj1" ConfigName="Debug"/>
+      <Project Name="customVector" ConfigName="Debug"/>
+      <Project Name="GraphBridge" ConfigName="Debug"/>
+      <Project Name="VectorCustom" ConfigName="Debug"/>
+      <Project Name="ChatRoom_Mediator" ConfigName="Debug"/>
+      <Project Name="ParkingLot" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Proj1" ConfigName="Release"/>
+      <Project Name="customVector" ConfigName="Release"/>
+      <Project Name="GraphBridge" ConfigName="Release"/>
+      <Project Name="VectorCustom" ConfigName="Release"/>
+      <Project Name="ChatRoom_Mediator" ConfigName="Release"/>
+      <Project Name="ParkingLot" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

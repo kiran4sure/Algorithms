@@ -1,0 +1,10 @@
+#pragma once
+
+
+class ParkingLot
+{
+  
+    location *loc;
+    std::vector<gate> gates;
+    
+};

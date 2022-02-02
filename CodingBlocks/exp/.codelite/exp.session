@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/CodingBlocks/exp/exp.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/CodingBlocks/exp/exp.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/CodingBlocks/exp/project1/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/kiran/Projects/GitHub/Algorithms/Algorithms/CodingBlocks/exp/p1/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="12" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
