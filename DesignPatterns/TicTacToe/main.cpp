@@ -92,3 +92,94 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+
+
+
+
+
+
+
+
+
+//===================
+
+class converter
+{
+    
+
+    virtual void informat() = 0;
+
+    virtual outformat() = 0;
+
+};
+
+
+class format
+{
+    converter *ip
+
+}
+
+
+class 
+
+
+
+
+
+
+
+class button
+{
+public:
+    virtual add() = 0;
+    virtual ~button();
+
+};
+
+
+class dialog
+{
+    setconfig(button *btn)
+    {
+        b = btn;
+    }
+
+    private:
+        button *b;
+
+    button *get_button()
+    {
+        return b;
+    }
+
+    void display()
+    {
+        get_button()-
+    }
+}
+
+class vx_btn: button
+{
+    add()
+    {
+        cout << " "
+    }
+private:
+
+
+}
+
+
+vx_btn *vb = new vx_btn();
+lx_
+
+
+auto l = []()(int a, int b)(return a+b);
+
+
+
+
+
+
+
