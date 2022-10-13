@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/state_ringing.cpp.o ./Debug/idle.cpp.o ./Debug/on_call.cpp.o ./Debug/state_handler.cpp.o
