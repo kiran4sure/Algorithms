@@ -1,0 +1,80 @@
+@startuml
+participant Participant as Foo
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+@enduml
+
+
+@startuml
+actor       User       as user
+participant "Admin Mode" as admin
+participant "NFC Reader" as reader
+participant "Display" as disp 
+participant "Network Module" as nm
+participant "Server" as server
+database "Data Base" as db
+collections "IO" as io
+control "Service Button" as btn
+
+-> reader: Power On
+reader -> reader: Powerup Initalize
+reader -> nm: Read Configuration
+nm -> server: Read Configuration
+alt Network Error 
+server -> nm : Network Error
+nm->reader: Network Error
+reader -> disp: Network Error
+reader -> reader: Wait for Assistance
+end
+server -> db: Fetch Configuration
+db -> server: Configuration Data
+server -> nm: Configuration Data
+nm -> reader: Configuration Data
+reader -> disp : Ready to Tap Card
+user -> reader: Tap NFC card
+reader -> reader: Read NFC data[state machine]
+reader -> nm : Validate data
+nm -> server: vaidate data
+server -> db: fetch speific data
+server -> server: validate data
+server -> nm: validation status
+nm -> reader: validation status
+alt not Valid
+reader -> disp: Error message[Insufficient balance / not valid card]
+reader -> disp: Ready to Tap Card
+reader -> reader: wait for another card
+end
+reader -> disp: Balance amount
+reader -> disp: Games menu
+reader -> io: Active controles 
+io -> io: Wait for Input
+user -> io: inputs
+user -> btn: Press
+btn -> reader: Button Press Status
+alt Long Press
+reader -> admin
+user -> admin: update / modify data base
+admin -> nm: update / modify data base
+nm -> server: update / modify data base
+server -> nm: status
+nm -> admin: status
+admin -> admin: wait for commands
+else short Press
+reader -> reader: Return to normal mode
+reader -> disp: Ready to Tap Card
+reader -> reader: wait for another card
+end
+
+@enduml
