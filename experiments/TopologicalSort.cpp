@@ -96,7 +96,7 @@ void Graph::topologicalSort()
 	    q.pop();
 		cout << cur << ":" << endl; 
 		vector<string> tp = adj[cur];
-		cout << "\t-";
+		cout << "\t- ";
 		for(string s: tp)
 		    cout << s << " ";
 		cout << endl;
